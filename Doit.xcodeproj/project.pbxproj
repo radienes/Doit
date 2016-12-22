@@ -13,6 +13,7 @@
 		6935E8A71E0C357400241C49 /* Doit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6935E8A51E0C357400241C49 /* Doit.xcdatamodeld */; };
 		6935E8A91E0C357400241C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6935E8A81E0C357400241C49 /* Assets.xcassets */; };
 		6935E8AC1E0C357400241C49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6935E8AA1E0C357400241C49 /* LaunchScreen.storyboard */; };
+		6935E8B41E0C3AAA00241C49 /*  Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6935E8B31E0C3AAA00241C49 /*  Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6935E8A81E0C357400241C49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6935E8AB1E0C357400241C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6935E8AD1E0C357400241C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6935E8B31E0C3AAA00241C49 /*  Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = " Task.swift"; path = "../ Task.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		6935E89D1E0C357400241C49 /* Doit */ = {
 			isa = PBXGroup;
 			children = (
+				6935E8B31E0C3AAA00241C49 /*  Task.swift */,
 				6935E89E1E0C357400241C49 /* AppDelegate.swift */,
 				6935E8A01E0C357400241C49 /* ViewController.swift */,
 				6935E8A21E0C357400241C49 /* Main.storyboard */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6935E8A11E0C357400241C49 /* ViewController.swift in Sources */,
+				6935E8B41E0C3AAA00241C49 /*  Task.swift in Sources */,
 				6935E89F1E0C357400241C49 /* AppDelegate.swift in Sources */,
 				6935E8A71E0C357400241C49 /* Doit.xcdatamodeld in Sources */,
 			);
